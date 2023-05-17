@@ -27,4 +27,5 @@ export default configureStore({
         thunkCounter : thunkSlice,
         weather : weatherSlice
     },
+    middleware : (getDefaultMiddleware) => getDefaultMiddleware()
 })
